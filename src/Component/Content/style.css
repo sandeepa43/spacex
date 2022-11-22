@@ -1,0 +1,123 @@
+.head-container {
+  padding: 5rem 1rem;
+}
+.description {
+  font-size: 20px;
+  color: white;
+  margin-top: 2rem;
+  line-height: 30px;
+  width: 60vw;
+}
+.heading {
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhY2V4fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+}
+.submit-button {
+  width: 30%;
+  padding: 15px 20px;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 8px;
+  border: 0.5px solid #950740;
+  background: black;
+  font-size: 22px;
+  color: white;
+  background-color: #c3073f;
+}
+.submit-button:focus-visible {
+  outline: 0.5px solid #c3073f;
+}
+.btn-hover {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px 35px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  text-decoration: none;
+
+  border-radius: 10px;
+
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+  color: #777;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+.btn-hover.color-1 {
+  background-image: linear-gradient(to right, #25aae1, #fff);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  font-size: 30px;
+}
+
+.search_box {
+  width: 30%;
+  padding: 15px 20px;
+  margin: 20px;
+  border-radius: 8px;
+  border: 0.5px solid #c3073f;
+  background: black;
+  color: white;
+  font-size: 18px;
+}
+.search_box:focus-visible {
+  outline: 0.5px solid #c3073f;
+}
+
+.search_form {
+  position: absolute;
+  top: 200px;
+}
+.search-heading {
+  margin: 2rem;
+  font-size: 42px;
+  font-weight: normal;
+  color: #c3073f;
+}
+
+/* button */
+.btn {
+  background-color: rgb(0, 221, 255);
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+  transition: 0.3s;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 15px 35px;
+}
+
+.btn:hover {
+  background-color: #27a3a7;
+  color: white;
+}
+
+.heading {
+  margin: 100px 20px;
+  display: flex;
+  gap: 12px;
+  top: 180px;
+  left: 60px;
+  font-size: 60px;
+  color: #fff;
+}
+
+.pagination {
+  margin: 15px !important;
+  background-color: #c3073f !important;
+}

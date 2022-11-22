@@ -1,0 +1,27 @@
+.box {
+  padding: 20px 60px;
+  background: black;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.box p {
+  display: inline-block;
+  margin-right: 80px;
+  margin-left: 180px;
+  color: #fff;
+  font-size: 12px;
+}
+.footer-link {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  padding-right: 40px;
+}
+.footer-link:hover {
+  color: #777;
+  transition: 200ms ease-in;
+}

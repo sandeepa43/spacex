@@ -1,0 +1,62 @@
+.container {
+  width: 320px;
+  height: 300px;
+  margin: 10px;
+  margin-top: 5vh;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.card {
+  background-color: black;
+  padding: 8px;
+  border-radius: 8px;
+}
+.card img {
+  border-radius: 10px;
+  width: 320px;
+  height: 240px;
+}
+.carddetail {
+  font-size: 16px;
+  color: #c3073f;
+  font-weight: 900;
+}
+
+.tag {
+  padding: 2px 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  /* text-align: center; */
+}
+
+/*  */
+
+/* Style button element */
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+
+  /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+  margin: 0 auto;
+  display: block;
+
+  /* Button is a clickable element, therefore it should have a pointer cursor */
+  cursor: pointer;
+}
+
+.card__details {
+  /* Add space around the details */
+  padding: 0px 8px 8px 8px;
+}
+.modal-header {
+  color: #c3073f !important;
+  background-color: black !important;
+  text-align: center;
+}
